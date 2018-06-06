@@ -3,8 +3,8 @@ import urllib3
 
 
 parser=argparse.ArgumentParser(description='Generate')
-parser.add_argument('--file',dest='file',action='store',default=None,help='APIC IPs')
-parser.add_argument('--apicIPs',dest='apicIPs', nargs='+', action='store',default=None,help='file with API request URLs')
+parser.add_argument('--file',dest='file',action='store',default=None,help='file with API request URLs')
+parser.add_argument('--apicIPs',dest='apicIPs', nargs='+', action='store',default=None,help='APIC IPs')
 args=parser.parse_args()
 
 f=open(args.file,'r')
