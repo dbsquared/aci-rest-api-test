@@ -68,5 +68,5 @@ for apicIP in apicIPs:
         print(response)
         print("Request sent out at: "+ datetime.datetime.fromtimestamp(startTime).strftime("%Y-%m-%d %H:%M:%S %f"))
         print("Response received at: " + datetime.datetime.fromtimestamp(endTime).strftime("%Y-%m-%d %H:%M:%S %f"))
-        print("Elapsed time: "+ str(elapsedTime)+"seconds")
+        print("Elapsed time: "+ str(elapsedTime)+" seconds")
         print("")
